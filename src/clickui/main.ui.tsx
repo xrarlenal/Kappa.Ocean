@@ -381,11 +381,12 @@ const KappaOceanDashboard: React.FC = () => {
             <a>海洋场景</a>
             <a>渲染设置</a>
             <a>性能分析</a>
-            <a onClick={() => navigate('/docs')}>文档</a>
+            <a onClick={() => navigate('/docs')}>详细文档</a>
           </NavLinks>
           <StatusBadge>
             <div className="dot" />
-            <span className="status-text">WebGPU · 实时渲染</span>
+            <span className="status-text"><span>WebGPU·实时渲染</span>
+            </span>
           </StatusBadge>
         </NavBarMotion>
 
